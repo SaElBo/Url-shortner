@@ -1,0 +1,57 @@
+*, 
+::before,
+::after
+{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    font-family: sans-serif;
+    height: 95vh;
+}
+
+h1{
+    display: inline-block;
+    
+   
+}
+
+
+input{
+    border : 3px solid #ccff15;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+        transition: all .2s;
+        
+   
+}
+input:focus{
+  
+    
+    outline: none;
+    padding: 1.5rem 4rem;
+}
+
+.container{
+    position: absolute;
+  
+    top: 50%;
+    left: 50%;
+
+    
+    transform: translate(-50%,-50%);
+    
+  
+}
+
+.screen-reader{
+    display: none;
+}
